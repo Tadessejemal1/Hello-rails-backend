@@ -1,11 +1,6 @@
-class MessagesController < ApplicationController
+class Api::V1::GreetingsController < ApplicationController
   def index
-    id = rand(1..Message.count)
-    if id.nil?
-      render json: { error: 'not found' }.to_json, status: 404
-    else
-      @message = Message.find(id)
-      render json: @message
-    end
+    @greeting = Greeting.find(rand(1..5))
+    render json: { message: @greeting.message }
   end
 end
