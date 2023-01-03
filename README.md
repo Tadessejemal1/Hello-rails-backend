@@ -65,11 +65,11 @@ In order to run this project you need:
 
 Start by cloning the repository.
 ```
- git clone https://github.com/Tadessejemal1/rails-react-app.git
+ git clone https://github.com/Tadessejemal1/hello-rails-backend.git
 ```
 Navigate to the created folder.
 ```
- cd rails-react-app
+ cd hello-rails-backend
 ```
 
 ### Install
