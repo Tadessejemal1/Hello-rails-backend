@@ -5,8 +5,9 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
-5.times do |i|
-    Greeting.create(
-      message: "Hello Tadesse #{i + 1}"
-    )
-end
+
+Greeting.create(message: 'Hi Tadesse')
+Greeting.create(message: 'Hello Tadesse')
+Greeting.create(message: 'How are you Tadesse')
+Greeting.create(message: "what's up Tadesse")
+Greeting.create(message: 'Hola Tadesse')
